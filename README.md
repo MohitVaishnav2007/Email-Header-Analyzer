@@ -1,4 +1,4 @@
-🚨 Email Header Analyzer Tool 
+🚨 Email Header Analyzer Tool by Mohit Vaishnav
 
 This is a beginner-friendly Python project built by Mohit Vaishnav.
 
