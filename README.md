@@ -1,73 +1,60 @@
-🚨 Email Header Analyzer Tool by Mohit Vaishnav
+📧 Email Header Analyzer Tool
 
-This is a beginner-friendly Python project built by Mohit Vaishnav.
-
-This tool analyzes email headers to help detect phishing, spam, and suspicious emails.
-It extracts important fields like From, To, Subject, finds IP addresses, and detects risky keywords.
-Ideal for Cybersecurity Learners & Ethical Hackers starting their projects.
+A simple and effective Python tool to analyze email headers and detect phishing, spam, and suspicious activities.
 
 
 ---
 
-🔹 Key Features
+✨ Features
 
-Extracts From, To, Subject from header
+Extracts From, To, and Subject fields.
 
-Detects IP addresses in "Received" lines
+Detects IP addresses from email headers.
 
-Scans for suspicious words: phish, spoof, fraud, etc.
+Identifies suspicious keywords: phish, spoof, fraud, etc.
 
-Calculates a simple Risk Score
+Calculates a basic risk score for quick analysis.
 
-Lightweight & Easy to Use
+Lightweight and easy to use for beginners and cybersecurity learners.
 
 
 
 ---
 
-🔧 Technologies Used
+🚀 How to Run
 
-Python 3.x
+1. Prepare Email Header
 
-Built-in Libraries: re and ipaddress
+Copy and paste the email header manually when prompted.
 
-
-
----
-
-🔹 How to Run (Steps)
-
-1. Prepare Header
-
-Either paste header manually or
-
-Save header in header.txt in the same folder
+Or save the header in a file named header.txt in the project folder.
 
 
-2. Run the Tool
+2. Run the Script
 
 python email_header_analyzer.py
 
-3. Follow Prompts
+3. Follow the Prompts
 
-Choose option to paste header or load from file
+Select your preferred input method.
 
-View the detailed analysis report (Risk Score, Keywords, IPs)
+Review the generated analysis report.
 
 
 
 ---
 
-🔹 Folder Structure
+📂 Project Structure
 
 email-header-analyzer/
-|├📄 email_header_analyzer.py
-|└📄 header.txt  # (Optional, for loading header)
+|
+|├📄 email_header_analyzer.py  # Main Python script
+|└📄 header.txt                # (Optional) Email header file
 
 
 ---
 
-🌟 Author
+👨‍💻 Author
 
 Mohit Vaishnav
 Cybersecurity & Python Enthusiast
@@ -75,13 +62,13 @@ Cybersecurity & Python Enthusiast
 
 ---
 
-🚀 Future Plans
+🚧 Future Enhancements
 
-Add GUI (Tkinter / PySimpleGUI)
+GUI Interface (Tkinter or PySimpleGUI)
 
-Save analysis reports automatically
+Auto-saving of analysis reports
 
-Integrate with AI for deeper detection
+AI-powered advanced detection
 
 
 
