@@ -1,11 +1,11 @@
-📧 Email Header Analyzer Tool
+## 📧 Email Header Analyzer Tool
 
 A simple and effective Python tool to analyze email headers and detect phishing, spam, and suspicious activities.
 
 
 ---
 
-✨ Features
+## ✨ Features
 
 Extracts From, To, and Subject fields.
 
@@ -21,7 +21,7 @@ Lightweight and easy to use for beginners and cybersecurity learners.
 
 ---
 
-🚀 How to Run
+## 🚀 How to Run
 
 1. Prepare Email Header
 
@@ -44,17 +44,19 @@ Review the generated analysis report.
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
+
+```plaintext
 email-header-analyzer/
-|
-|├📄 email_header_analyzer.py  # Main Python script
-|└📄 header.txt                # (Optional) Email header file
-
+│
+├── email_header_analyzer.py  # Main Python script
+└── header.txt                # (Optional) Email header file
+```
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Mohit Vaishnav
 Cybersecurity & Python Enthusiast
@@ -62,7 +64,7 @@ Cybersecurity & Python Enthusiast
 
 ---
 
-🚧 Future Enhancements
+## 🚧 Future Enhancements
 
 GUI Interface (Tkinter or PySimpleGUI)
 
